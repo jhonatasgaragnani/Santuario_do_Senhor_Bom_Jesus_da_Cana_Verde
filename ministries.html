@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<title>Ministries</title>
+<title>Ministros</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Demo project">
@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/ministries.css">
 <link rel="stylesheet" type="text/css" href="styles/ministries_responsive.css">
+<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
@@ -23,34 +24,12 @@
 	<header class="header">
 		
 		<!-- Top Bar -->
-
 		<div class="top_bar">
 			<div class="container">
 				<div class="row">
 					<div class="col top_bar_content d-flex flex-row align-items-center justify-content-start">
-						<div class="event_timer">
-							<span>Next Big Event:</span>
-							<ul class="timer">
-								<li class="d-inline-flex">
-									<div id="day" class="timer_num">03</div>
-									<div class="timer_unit">Days</div>
-								</li>
-								<li class="d-inline-flex">
-									<div id="hour" class="timer_num">15</div>
-									<div class="timer_unit">Hours</div>
-								</li>
-								<li class="d-inline-flex">
-									<div id="minute" class="timer_num">45</div>
-									<div class="timer_unit">Minutes</div>
-								</li>
-								<li class="d-inline-flex">
-									<div id="second" class="timer_num">23</div>
-									<div class="timer_unit">Seconds</div>
-								</li>
-							</ul>
-						</div>
 						<div class="donations_button ml-auto">
-							<a href="#">Send Donations</a>
+							<a href="#">Faça Sua Doação</a>
 						</div>
 					</div>
 				</div>
@@ -69,8 +48,7 @@
 							<div class="logo_container">
 								<div class="logo">
 									<a href="#">
-										<span>Believe</span>
-										<img src="images/logo.jpg" alt="">
+										<span><img class="img-logo" src="images/logo.png" alt="logo"></span>
 									</a>
 								</div>
 							</div>
@@ -79,11 +57,13 @@
 							<div class="header_nav_container ml-auto">
 								<nav class="main_nav">
 									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li class="active"><a href="#">Ministries</a></li>
-										<li><a href="sermons.html">Sermons</a></li>
-										<li><a href="blog.html">Blog</a></li>
-										<li><a href="contact.html">Contact</a></li>
+										<li class="active"><a href="#">Home</a></li>
+										<li><a href="ministries.html">Nossa História</a></li>
+										<li><a href="gallery.html">Galeria</a> </li>
+										<li><a href="sermons.html">Liturgia</a></li>
+										<li><a href="ministries.html">Ministério</a></li>
+										<li><a href="blog.html">Noticias</a></li>
+										<li><a href="contact.html">Contato</a></li>
 									</ul>
 								</nav>
 								<div class="search">
@@ -110,7 +90,7 @@
 						<div class="col">
 							<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
 								<form action="#" class="header_search_form">
-									<input type="search" class="search_input" placeholder="Search" required="required">
+									<input type="search" class="search_input" placeholder="Procurar" required="required">
 									<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
 										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_2" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="20px" height="20px">
 											<path class="search_path" d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" fill="#353535"/>
@@ -132,7 +112,7 @@
 		<div class="menu_content">
 			<div class="cross_1 d-flex flex-column align-items-center justify-content-center"><img src="images/cross_1.png" alt=""></div>
 			<form action="#" class="menu_search_form">
-				<input type="search" class="menu_search_input" placeholder="Search" required="required">
+				<input type="search" class="menu_search_input" placeholder="Procurar" required="required">
 				<button class="menu_search_button d-flex flex-column align-items-center justify-content-center">
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_3" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="20px" height="20px">
 					<path class="search_path" d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" fill="#353535"/>
@@ -141,11 +121,11 @@
 			</form>
 			<nav class="menu_nav">
 				<ul>
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="#">Ministries</a></li>
-					<li><a href="sermons.html">Sermons</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="ministries.html">Ministérios</a></li>
+					<li><a href="sermons.html">Sermões</a></li>
+					<li><a href="blog.html">Noticias</a></li>
+					<li><a href="contact.html">Contato</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -161,11 +141,11 @@
 				<div class="col">
 					<div class="home_container">
 						<div class="home_content d-flex flex-row align-items-center justify-content-start">
-							<div class="home_title">Ministries</div>
+							<div class="home_title">Ministros</div>
 							<div class="home_breadcrumbs ml-auto">
 								<ul class="breadcrumbs">
 									<li><a href="index.html">Home</a></li>
-									<li>Ministries</li>
+									<li>Ministros</li>
 								</ul>
 							</div>
 						</div>
@@ -183,8 +163,9 @@
 				<div class="col">
 					<div class="section_title_container">
 						<div class="section_image"><img src="images/church_1.png" alt=""></div>
-						<div class="section_title"><h2>Our Ministries</h2></div>
-						<div class="section_subtitle">God loves us all</div>
+						<div class="section_title"><h2>Nossos Ministros</h2></div>
+						<div class="section_subtitle">
+							Deus ama a todos</div>
 					</div>
 				</div>
 			</div>
@@ -194,11 +175,11 @@
 				<div class="col-xl-4 col-md-6">
 					<div class="ministry">
 						<div class="ministry_image"><img src="images/ministries_1.jpg" alt="https://unsplash.com/@davidbeale"></div>
-						<div class="ministry_title">Children's Ministry</div>
+						<div class="ministry_title">Ministério infantil</div>
 						<div class="ministry_text">
 							<p>Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id.</p>
 						</div>
-						<div class="button ministry_button"><a href="#">Read More</a></div>
+						<div class="button ministry_button"><a href="#">Ler Mais</a></div>
 					</div>
 				</div>
 
@@ -206,11 +187,11 @@
 				<div class="col-xl-4 col-md-6">
 					<div class="ministry">
 						<div class="ministry_image"><img src="images/ministries_2.jpg" alt="https://unsplash.com/@tanjaheffner"></div>
-						<div class="ministry_title">Women's Ministry</div>
+						<div class="ministry_title">Ministério da Mulher</div>
 						<div class="ministry_text">
 							<p>Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id.</p>
 						</div>
-						<div class="button ministry_button"><a href="#">Read More</a></div>
+						<div class="button ministry_button"><a href="#">Ler Mais</a></div>
 					</div>
 				</div>
 
@@ -218,11 +199,11 @@
 				<div class="col-xl-4 col-md-6">
 					<div class="ministry">
 						<div class="ministry_image"><img src="images/ministries_3.jpg" alt="https://unsplash.com/@taylor_grote"></div>
-						<div class="ministry_title">Men's Ministry</div>
+						<div class="ministry_title">Ministério dos homens</div>
 						<div class="ministry_text">
 							<p>Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id.</p>
 						</div>
-						<div class="button ministry_button"><a href="#">Read More</a></div>
+						<div class="button ministry_button"><a href="#">Ler Mais</a></div>
 					</div>
 				</div>
 
@@ -230,11 +211,12 @@
 				<div class="col-xl-4 col-md-6">
 					<div class="ministry">
 						<div class="ministry_image"><img src="images/ministries_4.jpg" alt="https://unsplash.com/@brookecagle"></div>
-						<div class="ministry_title">Youth's Ministry</div>
+						<div class="ministry_title">
+							Ministério da Juventude</div>
 						<div class="ministry_text">
 							<p>Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id.</p>
 						</div>
-						<div class="button ministry_button"><a href="#">Read More</a></div>
+						<div class="button ministry_button"><a href="#">Ler Mais</a></div>
 					</div>
 				</div>
 
@@ -242,11 +224,12 @@
 				<div class="col-xl-4 col-md-6">
 					<div class="ministry">
 						<div class="ministry_image"><img src="images/ministries_5.jpg" alt="https://unsplash.com/@benwhitephotography"></div>
-						<div class="ministry_title">Women's Ministry</div>
+						<div class="ministry_title">
+							Ministério da Mulher</div>
 						<div class="ministry_text">
 							<p>Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id.</p>
 						</div>
-						<div class="button ministry_button"><a href="#">Read More</a></div>
+						<div class="button ministry_button"><a href="#">Ler Mais</a></div>
 					</div>
 				</div>
 
@@ -254,11 +237,12 @@
 				<div class="col-xl-4 col-md-6">
 					<div class="ministry">
 						<div class="ministry_image"><img src="images/ministries_6.jpg" alt="https://unsplash.com/@steve228uk"></div>
-						<div class="ministry_title">Men's Ministry</div>
+						<div class="ministry_title">
+							Ministério dos homens</div>
 						<div class="ministry_text">
 							<p>Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id.</p>
 						</div>
-						<div class="button ministry_button"><a href="#">Read More</a></div>
+						<div class="button ministry_button"><a href="#">Ler Mais</a></div>
 					</div>
 				</div>
 
@@ -275,16 +259,17 @@
 				<div class="col">
 					<div class="section_title_container">
 						<div class="section_image"><img src="images/church_5.png" alt=""></div>
-						<div class="section_title"><h2>Quote of the day</h2></div>
-						<div class="section_subtitle">God loves us all</div>
+						<div class="section_title"><h2>
+							Citação do dia</h2></div>
+						<div class="section_subtitle">Deus ama a todos</div>
 					</div>
 				</div>
 			</div>
 			<div class="row quote_row">
 				<div class="col text-center">
 					<div class="quote_char"><img src="images/quote_char.png" alt=""></div>
-					<div class="quote_text">4 One thing I ask from the LORD, this only do I seek: that I may dwell in the house of the LORD all the days of my life, to gaze on the beauty of the LORD and to seek him in his temple.</div>
-					<div class="quote_source">Psalm 27:4</div>
+					<div class="quote_text">Uma coisa peço ao SENHOR, e só isso busco: que eu possa morar na casa do SENHOR todos os dias da minha vida, para contemplar a beleza do SENHOR e para buscá-lo no seu templo.</div>
+					<div class="quote_source">Salmo 27:4</div>
 				</div>
 			</div>
 		</div>
@@ -298,8 +283,9 @@
 				<div class="col">
 					<div class="section_title_container">
 						<div class="section_image"><img src="images/church_4.png" alt=""></div>
-						<div class="section_title"><h2>Our Pastors</h2></div>
-						<div class="section_subtitle">God loves us all</div>
+						<div class="section_title"><h2>
+							Nossos pastores</h2></div>
+						<div class="section_subtitle">Deus ama a todos</div>
 					</div>
 				</div>
 			</div>
@@ -314,7 +300,7 @@
 							<div class="owl-item text-center pastors_item">
 								<div class="pastors_item_image"><img src="images/pastor_1.jpg" alt=""></div>
 								<div class="pastors_item_title">Michael Miths</div>
-								<div class="pastors_item_text">Lead Pastor</div>
+								<div class="pastors_item_text">Pastor Líder</div>
 							</div>
 
 							<!-- Pastors Slider Item -->
@@ -355,11 +341,11 @@
 			<div class="row">
 				<div class="col">
 					<div class="newsletter_content d-flex flex-lg-row flex-column align-items-center justify-content-start">
-						<div class="newsletter_title">Subscribe to our newsletter</div>
+						<div class="newsletter_title">Assine para noticias</div>
 						<div class="newsletter_form_container ml-lg-auto">
 							<form action="#" id="newsletter_form" class="newsletter_form">
-								<input type="email" class="newsletter_input" placeholder="Your email" required="required">
-								<button id="newsletter_button" class="newsletter_button">Subscribe</button>
+								<input type="email" class="newsletter_input" placeholder="Seu email" required="required">
+								<button id="newsletter_button" class="newsletter_button">Increva-se</button>
 							</form>
 						</div>
 					</div>
@@ -381,11 +367,9 @@
 					<div class="logo_container">
 						<div class="logo">
 							<a href="#">
-								<span>Believe</span>
-								<img src="images/logo_large.jpg" alt="">
+								<img class="img-logo-footer" src="images/logo2.png" alt="">
 							</a>
 						</div>
-						<div class="logo_subtitle">Church template</div>
 					</div>
 					<div class="footer_social">
 						<ul>
@@ -400,18 +384,18 @@
 				<!-- Footer Column -->
 				<div class="col-lg-4 footer_col">
 					<div class="footer_links">
-						<div class="footer_title">Useful Links</div>
+						<div class="footer_title">Links Úteis</div>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="#">Donations</a></li>
-							<li><a href="sermons.html">Sermons</a></li>
-							<li><a href="#">Causes</a></li>
-							<li><a href="#">Quotes</a></li>
-							<li><a href="blog.html">News</a></li>
-							<li><a href="#">Event List</a></li>
-							<li><a href="#">Ministries</a></li>
-							<li><a href="#">Priests</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="#">Doações</a></li>
+							<li><a href="sermons.html">Sermões</a></li>
+							<li><a href="#">Causas</a></li>
+							<li><a href="#">Citações</a></li>
+							<li><a href="blog.html">Notícias</a></li>
+							<li><a href="#">Lista de Eventos</a></li>
+							<li><a href="ministries.html">Ministérios</a></li>
+							<li><a href="#">Padres</a></li>
+							<li><a href="contact.html">Contato</a></li>
 						</ul>
 					</div>
 				</div>
@@ -419,11 +403,11 @@
 				<!-- Footer Column -->
 				<div class="col-lg-3 footer_col">
 					<div class="footer_contact">
-						<div class="footer_title">Contact Us</div>
+						<div class="footer_title">Contate-nos</div>
 						<ul>
-							<li><span>Address: </span>1481 Creekside Lane Avila Beach, CA 93424</li>
+							<li><span>Endereço: </span>1481 Creekside Lane Avila Beach, CA 93424</li>
 							<li class="footer_contact_phone">
-								<span>Phone: </span>
+								<span>Telefone: </span>
 								<div>
 									<div> +53 345 7953 32453</div>
 									<div> +53 345 7557 822112</div>
@@ -438,8 +422,8 @@
 		</div>
 
 		<!-- Copyright -->
-		<div class="copyright text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+		<div class="copyright text-center">
+			Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos direitos reservados | by <a href="http://sites.xfind.com.br" target="_blank">XFind</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </div>
 

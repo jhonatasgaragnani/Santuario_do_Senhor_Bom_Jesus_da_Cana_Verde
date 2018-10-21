@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<title>Blog</title>
+<title>Noticias</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Demo project">
@@ -10,6 +10,7 @@
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/blog.css">
 <link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
@@ -20,34 +21,12 @@
 	<header class="header">
 		
 		<!-- Top Bar -->
-
 		<div class="top_bar">
 			<div class="container">
 				<div class="row">
 					<div class="col top_bar_content d-flex flex-row align-items-center justify-content-start">
-						<div class="event_timer">
-							<span>Next Big Event:</span>
-							<ul class="timer">
-								<li class="d-inline-flex">
-									<div id="day" class="timer_num">03</div>
-									<div class="timer_unit">Days</div>
-								</li>
-								<li class="d-inline-flex">
-									<div id="hour" class="timer_num">15</div>
-									<div class="timer_unit">Hours</div>
-								</li>
-								<li class="d-inline-flex">
-									<div id="minute" class="timer_num">45</div>
-									<div class="timer_unit">Minutes</div>
-								</li>
-								<li class="d-inline-flex">
-									<div id="second" class="timer_num">23</div>
-									<div class="timer_unit">Seconds</div>
-								</li>
-							</ul>
-						</div>
 						<div class="donations_button ml-auto">
-							<a href="#">Send Donations</a>
+							<a href="#">Faça Sua Doação</a>
 						</div>
 					</div>
 				</div>
@@ -66,8 +45,7 @@
 							<div class="logo_container">
 								<div class="logo">
 									<a href="#">
-										<span>Believe</span>
-										<img src="images/logo.jpg" alt="">
+										<span><img class="img-logo" src="images/logo.png" alt="logo"></span>
 									</a>
 								</div>
 							</div>
@@ -76,11 +54,13 @@
 							<div class="header_nav_container ml-auto">
 								<nav class="main_nav">
 									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li><a href="ministries.html">Ministries</a></li>
-										<li><a href="sermons.html">Sermons</a></li>
-										<li class="active"><a href="#">Blog</a></li>
-										<li><a href="contact.html">Contact</a></li>
+										<li class="active"><a href="#">Home</a></li>
+										<li><a href="ministries.html">Nossa História</a></li>
+										<li><a href="gallery.html">Galeria</a> </li>
+										<li><a href="sermons.html">Liturgia</a></li>
+										<li><a href="ministries.html">Ministério</a></li>
+										<li><a href="blog.html">Noticias</a></li>
+										<li><a href="contact.html">Contato</a></li>
 									</ul>
 								</nav>
 								<div class="search">
@@ -107,7 +87,7 @@
 						<div class="col">
 							<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
 								<form action="#" class="header_search_form">
-									<input type="search" class="search_input" placeholder="Search" required="required">
+									<input type="search" class="search_input" placeholder="Procurar" required="required">
 									<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
 										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_2" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="20px" height="20px">
 											<path class="search_path" d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" fill="#353535"/>
@@ -129,7 +109,7 @@
 		<div class="menu_content">
 			<div class="cross_1 d-flex flex-column align-items-center justify-content-center"><img src="images/cross_1.png" alt=""></div>
 			<form action="#" class="menu_search_form">
-				<input type="search" class="menu_search_input" placeholder="Search" required="required">
+				<input type="search" class="menu_search_input" placeholder="Procurar" required="required">
 				<button class="menu_search_button d-flex flex-column align-items-center justify-content-center">
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_3" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="20px" height="20px">
 					<path class="search_path" d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" fill="#353535"/>
@@ -138,11 +118,11 @@
 			</form>
 			<nav class="menu_nav">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="ministries.html">Ministries</a></li>
-					<li><a href="sermons.html">Sermons</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="ministries.html">Ministérios</a></li>
+					<li><a href="sermons.html">Sermões</a></li>
+					<li><a href="blog.html">Noticias</a></li>
+					<li><a href="contact.html">Contato</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -158,11 +138,11 @@
 				<div class="col">
 					<div class="home_container">
 						<div class="home_content d-flex flex-row align-items-center justify-content-start">
-							<div class="home_title">News</div>
+							<div class="home_title">Noticias</div>
 							<div class="home_breadcrumbs ml-auto">
 								<ul class="breadcrumbs">
 									<li><a href="index.html">Home</a></li>
-									<li>News</li>
+									<li>Noticias</li>
 								</ul>
 							</div>
 						</div>
@@ -188,21 +168,21 @@
 								<img src="images/blog_1.jpg" alt="">
 								<div class="news_date d-flex flex-column align-items-center justify-content-center">
 									<div class="news_day">06</div>
-									<div class="news_month">March, 2018</div>
+									<div class="news_month">Março, 2018</div>
 								</div>
 							</div>
-							<div class="blog_title">Latest news in the ‘18 community</div>
+							<div class="blog_title">Ultimas noticias da comunidade</div>
 							<div class="blog_meta">
 								<ul>
-									<li>By <a href="#">James Smith</a></li>
-									<li>In <a href="#">Community</a></li>
-									<li><a href="#">2 Comments</a></li>
+									<li>Por <a href="#">James Smith</a></li>
+									<li>em <a href="#">Comunidade</a></li>
+									<li><a href="#">2 Comentarios</a></li>
 								</ul>
 							</div>
 							<div class="blog_text">
 								<p>Praesent malesuada congue magna at finibus. In hac habitasse platea dic tumst malesuada congue magna at finibus. In hac habitasse platea. Praesent malesuada congue magna at finibus. In hac habitasse platea dic tumst malesuada congue magna at finibus. In hac habitasse platea.</p>
 							</div>
-							<div class="blog_link"><a href="#">Read More</a></div>
+							<div class="blog_link"><a href="#">Ler Mais</a></div>
 						</div>
 
 						<!-- Blog Post -->
@@ -211,21 +191,21 @@
 								<img src="images/blog_2.jpg" alt="">
 								<div class="news_date d-flex flex-column align-items-center justify-content-center">
 									<div class="news_day">06</div>
-									<div class="news_month">March, 2018</div>
+									<div class="news_month">Março, 2018</div>
 								</div>
 							</div>
-							<div class="blog_title">New changes in our Church from 2018</div>
+							<div class="blog_title">Novas mudanças em nossa igreja a partir de 2018</div>
 							<div class="blog_meta">
 								<ul>
-									<li>By <a href="#">James Smith</a></li>
-									<li>In <a href="#">Community</a></li>
-									<li><a href="#">2 Comments</a></li>
+									<li>Por <a href="#">James Smith</a></li>
+									<li>em <a href="#">Comunidade</a></li>
+									<li><a href="#">2 Comentarios</a></li>
 								</ul>
 							</div>
 							<div class="blog_text">
 								<p>Praesent malesuada congue magna at finibus. In hac habitasse platea dic tumst malesuada congue magna at finibus. In hac habitasse platea. Praesent malesuada congue magna at finibus. In hac habitasse platea dic tumst malesuada congue magna at finibus. In hac habitasse platea.</p>
 							</div>
-							<div class="blog_link"><a href="#">Read More</a></div>
+							<div class="blog_link"><a href="#">Ler Mais</a></div>
 						</div>
 
 						<!-- Blog Post -->
@@ -234,21 +214,21 @@
 								<img src="images/blog_3.jpg" alt="">
 								<div class="news_date d-flex flex-column align-items-center justify-content-center">
 									<div class="news_day">06</div>
-									<div class="news_month">March, 2018</div>
+									<div class="news_month">Março, 2018</div>
 								</div>
 							</div>
-							<div class="blog_title">How to have a beautiful wedding in our Church</div>
+							<div class="blog_title">Como ter um casamento lindo em nossa igreja</div>
 							<div class="blog_meta">
 								<ul>
-									<li>By <a href="#">James Smith</a></li>
-									<li>In <a href="#">Community</a></li>
-									<li><a href="#">2 Comments</a></li>
+									<li>Por <a href="#">James Smith</a></li>
+									<li>em <a href="#">Comunidade</a></li>
+									<li><a href="#">2 comentarios</a></li>
 								</ul>
 							</div>
 							<div class="blog_text">
 								<p>Praesent malesuada congue magna at finibus. In hac habitasse platea dic tumst malesuada congue magna at finibus. In hac habitasse platea. Praesent malesuada congue magna at finibus. In hac habitasse platea dic tumst malesuada congue magna at finibus. In hac habitasse platea.</p>
 							</div>
-							<div class="blog_link"><a href="#">Read More</a></div>
+							<div class="blog_link"><a href="#">Ler Mais</a></div>
 						</div>
 
 					</div>
@@ -272,7 +252,7 @@
 						<div class="sidebar_section">
 							<div class="sidebar_search">
 								<form action="#">
-									<input class="sidebar_search_input" type="search" placeholder="Search" required="required">
+									<input class="sidebar_search_input" type="Procurar" placeholder="Procurar" required="required">
 									<button type="submit" class="sidebar_search_button d-flex flex-column align-items-center justify-content-center"><img src="images/" alt="">
 										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_10" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="13px" height="14px">
 											<path class="search_path" d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" fill="#353535"/>
@@ -284,7 +264,7 @@
 						
 						<!-- Sidebar - Latest News -->
 						<div class="sidebar_section">
-							<div class="sidebar_title">Latest News</div>
+							<div class="sidebar_title">Ultimas Noticias</div>
 							<div class="latest_news_container">
 
 								<!-- Latest News -->
@@ -293,8 +273,8 @@
 										<div class="latest_news_image"><img src="images/latest_1.jpg" alt=""></div>
 									</div>
 									<div class="latest_news_content">
-										<div class="latest_news_date">06 March, 2018</div>
-										<div class="latest_news_title"><a href="#">How to pray the right way</a></div>
+										<div class="latest_news_date">06 Março, 2018</div>
+										<div class="latest_news_title"><a href="#">Como rezar do jeito certo</a></div>
 									</div>
 								</div>
 
@@ -304,8 +284,9 @@
 										<div class="latest_news_image"><img src="images/latest_2.jpg" alt=""></div>
 									</div>
 									<div class="latest_news_content">
-										<div class="latest_news_date">06 March, 2018</div>
-										<div class="latest_news_title"><a href="#">Latest news in the ‘18 community</a></div>
+										<div class="latest_news_date">06 Março, 2018</div>
+										<div class="latest_news_title"><a href="#">
+											Últimas notícias na comunidade</a></div>
 									</div>
 								</div>
 
@@ -315,8 +296,9 @@
 										<div class="latest_news_image"><img src="images/latest_3.jpg" alt=""></div>
 									</div>
 									<div class="latest_news_content">
-										<div class="latest_news_date">06 March, 2018</div>
-										<div class="latest_news_title"><a href="#">Church charities for 2018</a></div>
+										<div class="latest_news_date">06 Março, 2018</div>
+										<div class="latest_news_title"><a href="#">
+											Instituições de caridade da igreja para 2018</a></div>
 									</div>
 								</div>
 
@@ -326,8 +308,9 @@
 										<div class="latest_news_image"><img src="images/latest_4.jpg" alt=""></div>
 									</div>
 									<div class="latest_news_content">
-										<div class="latest_news_date">06 March, 2018</div>
-										<div class="latest_news_title"><a href="#">News in the youth community</a></div>
+										<div class="latest_news_date">06 Março, 2018</div>
+										<div class="latest_news_title"><a href="#">
+											Notícias na comunidade de jovens</a></div>
 									</div>
 								</div>
 
@@ -337,15 +320,18 @@
 						<!-- Sidebar - Categories -->
 
 						<div class="sidebar_section">
-							<div class="sidebar_title">Categories</div>
+							<div class="sidebar_title">Categorias</div>
 							<div class="sidebar_list">
 								<ul>
-									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Bible Stories<span class="ml-auto">4</span></a></li>
-									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Hope & Faithful<span class="ml-auto">5</span></a></li>
-									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Play & Church<span class="ml-auto">4</span></a></li>
-									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Community<span class="ml-auto">4</span></a></li>
-									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Sermon & Pray<span class="ml-auto">6</span></a></li>
-									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Uncategorized<span class="ml-auto">3</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Histórias Bíblicas
+										<span class="ml-auto">4</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Esperança e Fiel<span class="ml-auto">5</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Jogar e Igreja<span class="ml-auto">4</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Comunidade<span class="ml-auto">4</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">
+										Sermão e Rezar<span class="ml-auto">6</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">
+										Sem categoria<span class="ml-auto">3</span></a></li>
 								</ul>
 							</div>
 						</div>
@@ -353,14 +339,14 @@
 						<!-- Sidebar - Archives -->
 
 						<div class="sidebar_section">
-							<div class="sidebar_title">Archives</div>
+							<div class="sidebar_title">Arquivos</div>
 							<div class="sidebar_list">
 								<ul>
-									<li><a href="#">November 2017</a></li>
-									<li><a href="#">December 2017</a></li>
-									<li><a href="#">January 2018</a></li>
-									<li><a href="#">February 2018</a></li>
-									<li><a href="#">March 2018</a></li>
+									<li><a href="#">Novembro 2017</a></li>
+									<li><a href="#">Dezembro 2017</a></li>
+									<li><a href="#">Janeiro 2018</a></li>
+									<li><a href="#">Fevereiro 2018</a></li>
+									<li><a href="#">Março 2018</a></li>
 								</ul>
 							</div>
 						</div>
@@ -371,8 +357,8 @@
 							<div class="sidebar_quote">
 								<div class="sidebar_quote_background" style="background-image:url(images/sidebar_quote.jpg)"></div>
 								<div class="sidebar_quote_char"><img src="images/quote_char.png" alt=""></div>
-								<div class="sidebar_quote_text">4 One thing I ask from the LORD, this only do I seek: that I may dwell in the house of the LORD all the days of my life, to gaze on the beauty of the LORD and to seek him in his temple.</div>
-								<div class="sidebar_quote_source">Psalm 27:4</div>
+								<div class="sidebar_quote_text">4 Uma coisa peço ao Senhor, e só isso busco: que eu possa morar na casa do Senhor todos os dias da minha vida, para contemplar a formosura do Senhor e para buscá-lo no seu templo.</div>
+								<div class="sidebar_quote_source">Salmo 27:4</div>
 							</div>
 						</div>
 
@@ -389,11 +375,11 @@
 			<div class="row">
 				<div class="col">
 					<div class="newsletter_content d-flex flex-lg-row flex-column align-items-center justify-content-start">
-						<div class="newsletter_title">Subscribe to our newsletter</div>
+						<div class="newsletter_title">Assine para receber noticias</div>
 						<div class="newsletter_form_container ml-lg-auto">
 							<form action="#" id="newsletter_form" class="newsletter_form">
-								<input type="email" class="newsletter_input" placeholder="Your email" required="required">
-								<button id="newsletter_button" class="newsletter_button">Subscribe</button>
+								<input type="email" class="newsletter_input" placeholder="Seu email" required="required">
+								<button id="newsletter_button" class="newsletter_button">Increva-se</button>
 							</form>
 						</div>
 					</div>
@@ -415,11 +401,9 @@
 					<div class="logo_container">
 						<div class="logo">
 							<a href="#">
-								<span>Believe</span>
-								<img src="images/logo_large.jpg" alt="">
+								<img class="img-logo-footer" src="images/logo2.png" alt="">
 							</a>
 						</div>
-						<div class="logo_subtitle">Church template</div>
 					</div>
 					<div class="footer_social">
 						<ul>
@@ -434,30 +418,31 @@
 				<!-- Footer Column -->
 				<div class="col-lg-4 footer_col">
 					<div class="footer_links">
-						<div class="footer_title">Useful Links</div>
+						<div class="footer_title">Links Úteis</div>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="#">Donations</a></li>
-							<li><a href="sermons.html">Sermons</a></li>
-							<li><a href="#">Causes</a></li>
-							<li><a href="#">Quotes</a></li>
-							<li><a href="#">News</a></li>
-							<li><a href="#">Event List</a></li>
-							<li><a href="ministries.html">Ministries</a></li>
-							<li><a href="#">Priests</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="#">Doações</a></li>
+							<li><a href="sermons.html">Sermões</a></li>
+							<li><a href="#">Causas</a></li>
+							<li><a href="#">Citações</a></li>
+							<li><a href="blog.html">Notícias</a></li>
+							<li><a href="#">Lista de Eventos</a></li>
+							<li><a href="ministries.html">Ministérios</a></li>
+							<li><a href="#">Padres</a></li>
+							<li><a href="contact.html">Contato</a></li>
 						</ul>
 					</div>
 				</div>
 
 				<!-- Footer Column -->
+				<!-- Footer Column -->
 				<div class="col-lg-3 footer_col">
 					<div class="footer_contact">
-						<div class="footer_title">Contact Us</div>
+						<div class="footer_title">Contate-nos</div>
 						<ul>
-							<li><span>Address: </span>1481 Creekside Lane Avila Beach, CA 93424</li>
+							<li><span>Endereço: </span>1481 Creekside Lane Avila Beach, CA 93424</li>
 							<li class="footer_contact_phone">
-								<span>Phone: </span>
+								<span>Telefone: </span>
 								<div>
 									<div> +53 345 7953 32453</div>
 									<div> +53 345 7557 822112</div>
@@ -472,8 +457,8 @@
 		</div>
 
 		<!-- Copyright -->
-		<div class="copyright text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+		<div class="copyright text-center">
+			Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos direitos reservados | by <a href="http://sites.xfind.com.br" target="_blank">XFind</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </div>
 
