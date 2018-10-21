@@ -2,11 +2,13 @@
 
 
 .img-logo{
-    width: 250px;
+    display: inline-block;
+    width: 200px;
     height: auto;
 }
 
 .img-logo-footer{
+    display: inline-block;
     width: 180px;
     height: auto;
 }

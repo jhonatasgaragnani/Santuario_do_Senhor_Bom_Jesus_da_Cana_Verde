@@ -312,7 +312,7 @@ section
 }
 .header.scrolled .header_content
 {
-	height: 92px;
+	height: 75px;
 }
 
 /*********************************
@@ -1214,13 +1214,6 @@ section
 } 
 .newsletter_input:-ms-input-placeholder
 { 
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic;
-	color: #b5b5b5 !important;
-}
-.newsletter_input::input-placeholder
-{
 	font-size: 12px !important;
 	font-weight: 400 !important;
 	font-style: italic;
